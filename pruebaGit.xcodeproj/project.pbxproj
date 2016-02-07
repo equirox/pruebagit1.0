@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					E8AF0E471C5EEA100042F6FF = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8Q684CKUUK;
 					};
 					E8AF0E601C5EEA110042F6FF = {
 						CreatedOnToolsVersion = 7.3;
@@ -413,10 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = pruebaGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ejemplo.pruebaGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = pruebaGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ejemplo.pruebaGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -496,6 +503,7 @@
 				E8AF0E771C5EEA120042F6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8AF0E781C5EEA120042F6FF /* Build configuration list for PBXNativeTarget "pruebaGitTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +512,7 @@
 				E8AF0E7A1C5EEA120042F6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8AF0E7B1C5EEA120042F6FF /* Build configuration list for PBXNativeTarget "pruebaGitUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +521,7 @@
 				E8AF0E7D1C5EEA120042F6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
